@@ -1,0 +1,62 @@
+<html> 
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="leftside">
+           <div class="subcontainer">
+            <div class="bill">
+                <h2>Bill</h2>
+                <input type="text" class="inputbill" id="inputBill" placeholder="0.00" value="0.00" />
+            </div>
+            <div class="Tip">
+                <h2>Tip %</h2>
+                <div class="btn"><button class="buttonminus" id="buttonMinusTip">
+                    <span>-</span>
+                </button>
+                    <input type="text" id="tipPercent" placeholder="0%" value="0" />
+                    <button class="buttonplus" id="buttonPlusTip">+</button>
+                </div>
+            </div>
+            <div class="people">
+                <h2>Number of people</h2>
+                <div class="btn"><button class="buttonminus" id="buttonMinusPeople">-</i></button>
+                    <input type="text" id="numberOFpeople" placeholder="1" value="1" />
+                    <button class="buttonplus" id="buttonPlusPeople">+</button>
+                </div>
+            </div>
+           </div>
+        </div>
+
+        <div class="vl"></div>
+        
+        <div class="rightside">
+            <div class="tiptotal">
+                <div class="tip">
+                    <h1>Tip</h1>
+                    <p>per person</p>
+
+                </div>
+                <div class="total">
+                    <h1>Total</h1>
+                    <p>per person</p>
+                </div>
+            </div>
+            <div class="tiptotalrightside">
+                <div class="calcTip">
+                    <span class = "dollar">$</span>
+                    <span class = "dollar" id="tipOutput">0.00</span>
+                </div>
+                <div class="calcTotal">
+                    <span class = "dollar">$</span>
+                    <span class = "dollar" id="totalOutput">0.00</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>

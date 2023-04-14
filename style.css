@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items:center ;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container{
+    width: 80%;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.leftside{
+    display: flex;
+    position: absolute;
+    left:10%;
+    /* border: 1px solid black; */
+    height: inherit;
+    width: 493px;
+    border-radius: 2% 0% 0% 2%;
+}
+
+.subcontainer{
+    position:absolute;
+    top: 5%;
+    left: 10%;
+}
+
+.bill{
+    margin-bottom: 10%;
+}
+
+.Tip{
+    margin-bottom: 10%;
+}
+
+
+.inputbill{
+    width: 160%;
+    display: inline-block;
+    padding: 12px 20px;
+    height: 30px;
+    border: 1px solid black;
+    box-shadow: 0px 1px 10px rgb(0, 0, 0,0.5);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input{
+    width: 160%;
+    display: inline-block;
+    padding: 12px 20px;
+    height: 30px;
+    border: 1px solid black;
+    box-shadow: 0px 1px 10px rgb(0, 0, 0,0.5);
+    box-sizing: border-box;
+}
+
+
+.btn{
+    display: flex;
+    width: 160%;
+}
+
+.buttonminus{
+    width:20%;
+    height: 30px;
+    font-size: 25px;
+    border: 1px solid black;
+    border-radius: 4px 0px 0px 4px;
+}
+
+.buttonplus{
+    width:20%;
+    height: 30px;
+    font-size: 25px;
+    border: 1px solid black;
+    border-radius: 0px 4px 4px 0px;
+}
+
+h2{
+    margin-bottom:10px;
+}
+
+.vl{
+    border-left: 1px solid black;
+    height: 299px;
+    position: absolute;
+    left: 46.5%;
+}
+
+.rightside{
+    display: flex;
+    position: absolute;
+    right: 10%;
+    /* border: 1px solid black; */
+    width: 600px;
+    border-radius: 0% 2% 2% 0%;
+    height: 300px;
+}
+
+.rightside .tiptotal{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:26%;
+    left: 10%;
+}
+
+.rightside .tip{
+    margin-bottom: 45%;
+}
+
+.tiptotalrightside{
+    position: absolute;
+    height: 20vh;
+    width: 20vw;
+    /* right: -20%; */
+    left: 50%;
+    top: 30%;  
+
+}
+
+.dollar{
+    font-size: 35;
+    font-weight: bold;
+}
+.calcTip{
+    margin-bottom: 20%;
+
+}
